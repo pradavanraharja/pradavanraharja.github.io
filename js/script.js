@@ -21,6 +21,11 @@ $('.page-scroll').on('click', function(e){
 });
 
 //parallax
+//about
+$(window).on('load',function(){
+	$('.pKiri').addClass('pMuncul');
+});
+
 $(window).scroll(function(){
 	var wScroll = $(this).scrollTop();
 
