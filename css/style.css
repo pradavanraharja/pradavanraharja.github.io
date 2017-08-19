@@ -38,12 +38,12 @@ section{
 
 .pKiri, .pKanan{
 	opacity: 0;
-	transform: translate(-50px, 0) rotate(15deg);
+	transform: translate(-50px, 0);
 	transition: 1s;
 }
 
 .pKanan{
-	transform: translate(50px, 0) rotate(-15deg);
+	transform: translate(50px, 0);
 }
 
 .pKiri.pMuncul, .pKanan.pMuncul{
